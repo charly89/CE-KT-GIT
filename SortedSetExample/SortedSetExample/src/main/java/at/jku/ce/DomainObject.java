@@ -2,12 +2,12 @@ package at.jku.ce;
 
 public class DomainObject {
 
-	public String id;
+	public String uuid;
 	private String name;
 
-	public DomainObject(String id) {
+	public DomainObject(String uuid) {
 		super();
-		this.id = id;
+		this.uuid = uuid;
 	}
 	/**
 	* Default-Konstruktor
@@ -16,7 +16,7 @@ public class DomainObject {
 		super();
 	}
 
-	public String getID(){
-		return id;
+	public String getUuid(){
+		return uuid;
 	}
 }
