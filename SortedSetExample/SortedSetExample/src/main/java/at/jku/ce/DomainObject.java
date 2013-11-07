@@ -10,6 +10,7 @@ public class DomainObject {
 		super();
 		this.uuid = uuid;
 	}
+	
 	/**
 	* Default-Konstruktor
 	*/
