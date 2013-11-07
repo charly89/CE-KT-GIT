@@ -19,7 +19,6 @@ public class Main {
 		for (DomainObject domainObject : objectSet) { 
 			LOGGER.debug(domainObject.id); 
 		}
-		
 	}
 
 }
